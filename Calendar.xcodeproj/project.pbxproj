@@ -13,6 +13,8 @@
 		AC2BE88A24309E0E00E74A41 /* Calendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC2BE88824309E0E00E74A41 /* Calendar.xcdatamodeld */; };
 		AC2BE88C24309E0F00E74A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2BE88B24309E0F00E74A41 /* Assets.xcassets */; };
 		AC2BE88F24309E0F00E74A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2BE88D24309E0F00E74A41 /* LaunchScreen.storyboard */; };
+		AC2BE8972430A16500E74A41 /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2BE8962430A16500E74A41 /* DateCollectionViewCell.swift */; };
+		AC2BE8992430A3D400E74A41 /* CalendarVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2BE8982430A3D400E74A41 /* CalendarVars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AC2BE88B24309E0F00E74A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2BE88E24309E0F00E74A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2BE89024309E0F00E74A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2BE8962430A16500E74A41 /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		AC2BE8982430A3D400E74A41 /* CalendarVars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				AC2BE88124309E0E00E74A41 /* AppDelegate.swift */,
 				AC2BE88324309E0E00E74A41 /* ViewController.swift */,
+				AC2BE8962430A16500E74A41 /* DateCollectionViewCell.swift */,
+				AC2BE8982430A3D400E74A41 /* CalendarVars.swift */,
 				AC2BE88524309E0E00E74A41 /* Main.storyboard */,
 				AC2BE88B24309E0F00E74A41 /* Assets.xcassets */,
 				AC2BE88D24309E0F00E74A41 /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2BE8972430A16500E74A41 /* DateCollectionViewCell.swift in Sources */,
 				AC2BE88424309E0E00E74A41 /* ViewController.swift in Sources */,
 				AC2BE88A24309E0E00E74A41 /* Calendar.xcdatamodeld in Sources */,
+				AC2BE8992430A3D400E74A41 /* CalendarVars.swift in Sources */,
 				AC2BE88224309E0E00E74A41 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
